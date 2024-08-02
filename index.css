@@ -1,0 +1,97 @@
+.border{
+    position: relative;
+    margin-top: 100px;
+    padding: 20px;
+    height: 70%;
+      width: 70%;
+    border: 5px solid rgb(180, 40, 40 ,0.8) ;
+    background-image: url('diploma-certificate_1020-2253.avif');
+background-repeat: no-repeat;
+background-size: cover;
+}
+#sr{
+    position:absolute;
+    padding: 0px;
+    margin: 0px;
+    top: 1px;
+    left: 1px;
+}
+#emblem{
+    position: relative;
+    width: 5px;
+    height: 5px;
+    left: 40px;
+}
+body{
+    position: relative;
+}
+#QR{
+    position: relative;
+top: -30px;
+    left: 180px;
+}
+#here{
+    position: relative;
+    top: -60px;
+    left: 220px;
+}
+#title1{
+    position: relative;
+font-size: smaller;   
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto  auto auto;
+    gap: 0px;
+    border: 2px solid rgb(212, 146, 24);
+    padding: 0px;
+    position: relative;
+    top: -30PX;}
+
+#grid-item1{
+
+    grid-column-start:1 ;
+    grid-column-end:3;
+    border-bottom: 2px solid rgb(212, 146, 24);
+    border-right: 2px solid rgb(212, 146, 24);
+    position: absolute;
+    padding-right: 98px;
+}
+#grid-item2{
+ grid-column-start:3 ;
+ grid-column-end:5 ;
+ border-bottom: 2px solid rgb(212, 146, 24);
+ /* border-left: 2px solid rgb(212, 146, 24); */
+  position: relative;
+  
+}
+#grid-item3{
+  grid-row-start:2 ;
+  grid-row-end:2 ;
+  grid-column-start:1 ;
+  grid-column-end:2 ;
+  border-right: 2px solid rgb(212, 146, 24);
+  padding: 0px;
+   }
+   #grid-item4{
+    grid-column-start:3 ;
+    grid-column-end:4 ;
+    border-right: 2px solid rgb(212, 146, 24);
+    padding: 0px;
+   }
+#grid-item5{
+    text-align: center;
+    position: relative;
+    padding: 0px; 
+}
+table{
+    border-collapse: collapse;
+    position: relative;
+    width: 535px;
+    top: -20px;
+    text-align: center;
+
+}
+td{
+    border: 2px solid rgb(212, 146, 24);
+}
